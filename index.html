@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var activeFetch = originalFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return activeFetch;
+            },
+            set: function(newFetch) {
+              activeFetch = newFetch;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {}
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vander & Cole | Architectural Construction</title>
+    <meta name="description" content="Premier US general contractor and architectural builder specializing in custom residential estates, luxury modern renovations, and landmark commercial construction." />
+    <meta property="og:title" content="Vander & Cole | Architectural Construction" />
+    <meta property="og:description" content="Premier US general contractor and architectural builder specializing in custom residential estates, luxury modern renovations, and landmark commercial construction." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Syne:wght@400;500;600;700;800&family=Cinzel:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "GeneralContractor",
+      "name": "Vander & Cole Architectural Builders",
+      "image": "https://vandercolebuilders.com/og-image.jpg",
+      "description": "Architectural general contractor delivering museum-grade custom residences, luxury home transformations, and commercial architecture.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1420 5th Avenue, Suite 2800",
+        "addressLocality": "Seattle",
+        "addressRegion": "WA",
+        "postalCode": "98101",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-206-892-4400",
+      "priceRange": "$$$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "07:30",
+          "closes": "17:30"
+        }
+      ],
+      "areaServed": [
+        "Greater Seattle & Puget Sound, WA",
+        "Bellevue & Medina, WA",
+        "San Francisco Bay Area & Marin, CA",
+        "Napa Valley & Sonoma, CA"
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#0e1013] text-[#e8e6e3] antialiased selection:bg-[#c4a47c] selection:text-[#0e1013]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

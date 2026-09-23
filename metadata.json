@@ -1,0 +1,6 @@
+{
+  "name": "Vander & Cole | Architectural Construction",
+  "description": "Premier US general contractor and architectural builder specializing in custom residential estates, luxury modern renovations, and landmark commercial construction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
