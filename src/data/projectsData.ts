@@ -1,5 +1,14 @@
 import { Project } from '../types';
 
+import heroModernResidence from '../assets/images/hero_modern_residence_1790156520352.jpg';
+import interiorLivingSpace from '../assets/images/interior_living_space_1790156546780.jpg';
+import luxuryKitchenCraft from '../assets/images/luxury_kitchen_craft_1790156558887.jpg';
+import outdoorCantileverPool from '../assets/images/outdoor_cantilever_pool_1790156631784.jpg';
+import primaryBathSpa from '../assets/images/primary_bath_spa_1790156569510.jpg';
+import historicRestorationEstate from '../assets/images/historic_restoration_estate_1790156620150.jpg';
+import commercialArchitecturalWinery from '../assets/images/commercial_architectural_winery_1790156608539.jpg';
+import constructionFramingCraft from '../assets/images/construction_framing_craft_1790156533745.jpg';
+
 export const PROJECTS_DATA: Project[] = [
   {
     id: 'mercer-residence',
@@ -11,12 +20,12 @@ export const PROJECTS_DATA: Project[] = [
     squareFootage: '8,450 sq ft',
     architect: 'Olson Kundig Architects',
     leadTime: '22 Months',
-    heroImage: '/src/assets/images/hero_modern_residence_1790156520352.jpg',
+    heroImage: heroModernResidence,
     galleryImages: [
-      '/src/assets/images/hero_modern_residence_1790156520352.jpg',
-      '/src/assets/images/interior_living_space_1790156546780.jpg',
-      '/src/assets/images/luxury_kitchen_craft_1790156558887.jpg',
-      '/src/assets/images/outdoor_cantilever_pool_1790156631784.jpg'
+      heroModernResidence,
+      interiorLivingSpace,
+      luxuryKitchenCraft,
+      outdoorCantileverPool
     ],
     tagline: 'A cantilevered modern sanctuary uniting board-formed concrete, western red cedar, and triple-glazed curtain walls.',
     concept: 'Conceived to blur the distinction between interior living and the native Pacific Northwest topography, this home steps down a steep 28-degree waterfront embankment on 32 deep-drilled cast-in-place concrete friction pilings.',
@@ -51,11 +60,11 @@ export const PROJECTS_DATA: Project[] = [
     squareFootage: '6,900 sq ft',
     architect: 'Marmol Radziner',
     leadTime: '18 Months',
-    heroImage: '/src/assets/images/luxury_kitchen_craft_1790156558887.jpg',
+    heroImage: luxuryKitchenCraft,
     galleryImages: [
-      '/src/assets/images/luxury_kitchen_craft_1790156558887.jpg',
-      '/src/assets/images/interior_living_space_1790156546780.jpg',
-      '/src/assets/images/primary_bath_spa_1790156569510.jpg'
+      luxuryKitchenCraft,
+      interiorLivingSpace,
+      primaryBathSpa
     ],
     tagline: 'Horizontal minimalism overlooking San Francisco Bay with bookmatched Calacatta marble and fumed white oak.',
     concept: 'A series of interlocking pavilions arranged around an internal contemplative reflection garden, channeling coastal light through acoustic fluted oak ceilings and oversized bronze sliding doors.',
@@ -89,11 +98,11 @@ export const PROJECTS_DATA: Project[] = [
     squareFootage: '7,200 sq ft',
     architect: 'Studio VARA & Vander & Cole Historic Division',
     leadTime: '20 Months',
-    heroImage: '/src/assets/images/historic_restoration_estate_1790156620150.jpg',
+    heroImage: historicRestorationEstate,
     galleryImages: [
-      '/src/assets/images/historic_restoration_estate_1790156620150.jpg',
-      '/src/assets/images/primary_bath_spa_1790156569510.jpg',
-      '/src/assets/images/interior_living_space_1790156546780.jpg'
+      historicRestorationEstate,
+      primaryBathSpa,
+      interiorLivingSpace
     ],
     tagline: 'Meticulous 1928 Beaux-Arts manor fully modernized with subterranean wellness suite and historic steel fenestration.',
     concept: 'Honoring the classical symmetry of 1920s Northern California architecture while completely gutting the structural core to introduce open sightlines, earthquake-proof shear walls, and a new basement spa level.',
@@ -127,11 +136,11 @@ export const PROJECTS_DATA: Project[] = [
     squareFootage: '11,200 sq ft',
     architect: 'Walker Warner Architects',
     leadTime: '16 Months',
-    heroImage: '/src/assets/images/commercial_architectural_winery_1790156608539.jpg',
+    heroImage: commercialArchitecturalWinery,
     galleryImages: [
-      '/src/assets/images/commercial_architectural_winery_1790156608539.jpg',
-      '/src/assets/images/hero_modern_residence_1790156520352.jpg',
-      '/src/assets/images/construction_framing_craft_1790156533745.jpg'
+      commercialArchitecturalWinery,
+      heroModernResidence,
+      constructionFramingCraft
     ],
     tagline: 'A commercial wine tasting sanctuary anchored by rammed-earth walls, solar canopies, and deep shade trellises.',
     concept: 'Designed to harmonize with the volcanic soils and rowed vines of the Napa Valley floor, utilizing passive thermal mass and raw industrial steel.',
@@ -165,11 +174,11 @@ export const PROJECTS_DATA: Project[] = [
     squareFootage: '5,800 sq ft',
     architect: 'Cutler Anderson Architects',
     leadTime: '19 Months',
-    heroImage: '/src/assets/images/outdoor_cantilever_pool_1790156631784.jpg',
+    heroImage: outdoorCantileverPool,
     galleryImages: [
-      '/src/assets/images/outdoor_cantilever_pool_1790156631784.jpg',
-      '/src/assets/images/construction_framing_craft_1790156533745.jpg',
-      '/src/assets/images/interior_living_space_1790156546780.jpg'
+      outdoorCantileverPool,
+      constructionFramingCraft,
+      interiorLivingSpace
     ],
     tagline: 'A 34-foot structural steel cantilever floating over coastal bluff pines with an infinity reflection basin.',
     concept: 'Suspended above the fragile marine ecosystem, touching the earth in only four engineered footing points to minimize tree canopy disturbance.',
@@ -203,11 +212,11 @@ export const PROJECTS_DATA: Project[] = [
     squareFootage: '4,600 sq ft',
     architect: 'Bohlin Cywinski Jackson',
     leadTime: '15 Months',
-    heroImage: '/src/assets/images/primary_bath_spa_1790156569510.jpg',
+    heroImage: primaryBathSpa,
     galleryImages: [
-      '/src/assets/images/primary_bath_spa_1790156569510.jpg',
-      '/src/assets/images/hero_modern_residence_1790156520352.jpg',
-      '/src/assets/images/construction_framing_craft_1790156533745.jpg'
+      primaryBathSpa,
+      heroModernResidence,
+      constructionFramingCraft
     ],
     tagline: 'Quiet Japanese-influenced forest dwelling centered around private stone onsen baths and cedar courtyards.',
     concept: 'A celebration of simplicity and natural stone textures nestled into an old-growth cedar grove.',
@@ -241,11 +250,11 @@ export const PROJECTS_DATA: Project[] = [
     squareFootage: '5,100 sq ft',
     architect: 'SHED Architecture & Design',
     leadTime: '14 Months',
-    heroImage: '/src/assets/images/interior_living_space_1790156546780.jpg',
+    heroImage: interiorLivingSpace,
     galleryImages: [
-      '/src/assets/images/interior_living_space_1790156546780.jpg',
-      '/src/assets/images/luxury_kitchen_craft_1790156558887.jpg',
-      '/src/assets/images/outdoor_cantilever_pool_1790156631784.jpg'
+      interiorLivingSpace,
+      luxuryKitchenCraft,
+      outdoorCantileverPool
     ],
     tagline: 'Full transformation of a 1964 mid-century post-and-beam home with panoramic Lake Washington views.',
     concept: 'Re-imagining mid-century Pacific Northwest architecture through contemporary seismic engineering and modern thermal performance.',
@@ -279,11 +288,11 @@ export const PROJECTS_DATA: Project[] = [
     squareFootage: '9,100 sq ft',
     architect: 'Backen & Backen Architecture',
     leadTime: '24 Months',
-    heroImage: '/src/assets/images/hero_modern_residence_1790156520352.jpg',
+    heroImage: heroModernResidence,
     galleryImages: [
-      '/src/assets/images/hero_modern_residence_1790156520352.jpg',
-      '/src/assets/images/commercial_architectural_winery_1790156608539.jpg',
-      '/src/assets/images/outdoor_cantilever_pool_1790156631784.jpg'
+      heroModernResidence,
+      commercialArchitecturalWinery,
+      outdoorCantileverPool
     ],
     tagline: 'A stone-and-timber modern farm estate with detached guest pavilion, lap pool, and working olive orchard.',
     concept: 'Rooted in Napa Valley agrarian heritage, balancing monumental quarried stone masses with delicate glass connectors.',
